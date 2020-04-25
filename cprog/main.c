@@ -4,6 +4,7 @@
 // FINAL REQ MO PRE PERO DAMING ERRORS
 //  Created by Kinni Yya Lopez on 29/02/2020.
 //  Copyright  2020 Kinni Yya Lopez. All rights reserved.
+//	I'm here too!!! >w<
 
 #include <stdio.h>
 #include <stdlib.h>
