@@ -21,7 +21,6 @@ FILE *pFile;
 FILE *pFile2;
 FILE *pTemp;
 
-
 char EnterPassword[LimitPassword];
 char EnterAccountName[LimitAccountName];
 
@@ -188,6 +187,7 @@ void ammCreateRecord() {
             else {*/
             AccountCreate.accountRollNo = atoi(string) + 1;         /*atoi(string) turns (string variable) string into an integer. Hence, atoi which stands                                                                                        for alphanumeric to integer.*/
             
+
         }
            
         fclose (pFile);
@@ -577,7 +577,9 @@ ContinueDeletion:
             }
             
         }
+
         //++DeletionStatus;
+
         fclose(pFile);
         fclose(pTemp);
             
@@ -602,7 +604,6 @@ ContinueDeletion:
             printf ("\nRedirecting to ADMIN MAIN MENU...\n");
             adminMainMenuChoice();
         }
-        printf ("delete me.\n");
     } //end of else if (toupper(CharChoice) == 'N')
 } // end of void ammRM_DeleteRecord(void)
 
